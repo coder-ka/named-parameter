@@ -1,0 +1,32 @@
+{
+  "name": "@coder-ka/named-parameter",
+  "version": "0.0.0",
+  "author": "coder-ka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coder-ka/named-parameter"
+  },
+  "keywords": [
+    "named-parameter",
+    "sql"
+  ],
+  "files": [
+    "/dist",
+    "/types"
+  ],
+  "main": "dist/named-parameter.umd.js",
+  "module": "dist/named-parameter.es.js",
+  "browser": "dist/named-parameter.umd.js",
+  "types": "types/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "watch": "tsc && vite build --watch",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  }
+}
