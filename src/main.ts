@@ -29,12 +29,12 @@ export function createReplace({
         param.forEach((p) => array.push(p));
 
         return `(${param.map(() => "?").join(",")})`;
-      } else if (param) {
+      } else if (param === undefined) {
+        return match;
+      } else {
         array.push(param);
 
         return placeholder(++i);
-      } else {
-        return match;
       }
     });
 
