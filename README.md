@@ -95,7 +95,7 @@ import { createReplace } from "@coder-ka/named-parameter";
 const replace = createReplace({
   // change starting character
   start: '@',
-  // change starting character to @
+  // change placeholder string
   placeholder: (index) => `$${index}`
 })
 
