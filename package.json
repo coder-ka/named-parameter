@@ -1,6 +1,6 @@
 {
   "name": "@coder-ka/named-parameter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "coder-ka",
   "license": "MIT",
   "repository": {
@@ -16,8 +16,6 @@
     "/types"
   ],
   "main": "dist/named-parameter.umd.js",
-  "module": "dist/named-parameter.es.js",
-  "browser": "dist/named-parameter.umd.js",
   "types": "types/main.d.ts",
   "scripts": {
     "dev": "vite",
