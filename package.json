@@ -1,6 +1,6 @@
 {
   "name": "@coder-ka/named-parameter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "coder-ka",
   "license": "MIT",
   "repository": {
@@ -17,6 +17,13 @@
   ],
   "main": "dist/named-parameter.umd.js",
   "types": "types/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/named-parameter.umd.js",
+      "require": "./dist/named-parameter.umd.js",
+      "types": "./types/main.d.ts"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "watch": "tsc && vite build --watch",
